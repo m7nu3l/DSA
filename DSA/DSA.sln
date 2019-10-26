@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA", "DSA\DSA.csproj", "{F2B808CF-2D2E-442E-A145-983A7413A596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA", "DSA\DSA.csproj", "{F2B808CF-2D2E-442E-A145-983A7413A596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAUnitTests", "DSAUnitTests\DSAUnitTests.csproj", "{DD5D5013-4B48-45C1-890D-19B5F3AD060A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSAUnitTests", "DSAUnitTests\DSAUnitTests.csproj", "{DD5D5013-4B48-45C1-890D-19B5F3AD060A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSANUnitTests", "DSANUnitTests\DSANUnitTests.csproj", "{0718AF64-DDF0-4299-92E7-2A0207239F7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DD5D5013-4B48-45C1-890D-19B5F3AD060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD5D5013-4B48-45C1-890D-19B5F3AD060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD5D5013-4B48-45C1-890D-19B5F3AD060A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0718AF64-DDF0-4299-92E7-2A0207239F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0718AF64-DDF0-4299-92E7-2A0207239F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0718AF64-DDF0-4299-92E7-2A0207239F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0718AF64-DDF0-4299-92E7-2A0207239F7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
